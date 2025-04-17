@@ -5,4 +5,5 @@ def close_window():
         robo.press('f4')
 
 def confirme():
+    robo.PAUSE = 1.5
     robo.press("win")
